@@ -1,0 +1,193 @@
+body {
+    background-color: rgb(0, 0, 0);
+    /* background-color: rgb(37, 37, 37); */
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px;
+}
+
+.container {
+    background-color: rgba(52, 52, 52, 0.555);
+    /* background-color: rgba(0, 0, 0, 0.555); */
+    width: 80%;
+    margin: auto;
+    border-radius: 5px;
+}
+
+.topo {
+    background-image: url(image/cup-of-coffee-with-a-heart-drawn-in-foam.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 360px;
+    margin-bottom: 30PX;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.8), -5px -5px 5px rgba(0, 0, 0, 0.8);
+    position: relative;
+}
+
+.topo-menu {
+    background-color: rgba(216, 217, 218, 0.555);
+    box-sizing: border-box;
+    height: 100px;
+    border-radius: 10px 10px 0 0;
+}
+
+.logo {
+    box-sizing: border-box;
+    height: 100px;
+    border-radius: 10px 0 0 0;
+    opacity: 0.3;
+}
+.logo:hover{
+    opacity: 1;
+
+}
+
+.menu {
+    float: right;
+    margin-top: 30px;
+    padding: 0;
+}
+
+ul {
+    padding: 0;
+}
+
+.menu ul li {
+    display: inline-block;
+    list-style: none;
+    padding-right: 10px;
+    color: white;
+    text-shadow: 5px 5px 5px black;
+    letter-spacing: -1px;
+    font-size: 20px;
+
+}
+.menu ul li:hover{
+    color: black;
+}
+
+
+h1 {
+    color: white;
+    text-transform: uppercase;
+    text-decoration: overline;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 5px 5px 5px black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    right: 0;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+
+
+.conteudo {
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 80%;
+    margin: auto;
+    padding: 0;
+    overflow: hidden;
+}
+
+.cardapio {
+    width: 96%;
+    margin: auto;
+}
+
+.card {
+    width: 24%;
+    height: 250px;
+    margin-bottom: 8px;
+    margin-left: .5%;
+    display: inline-block;
+    border-radius: 5px;
+    background-color: rgb(23, 23, 23);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.8), -5px -5px 5px rgba(0, 0, 0, 0.8);
+}
+
+.paddingCard{
+    padding: 0 10px 0 10px;
+}
+
+.foto {
+    width: 100%;
+    border-radius: 5px 5px 0 0;
+}
+
+.mapa{
+    width: 46%;
+    display: inline-block;
+    box-sizing: border-box;
+    margin-left: 1%;
+}
+address{
+    color: white;
+    width: 46%;
+    margin-right: 1%;
+    float: right;
+}
+
+.contato{
+    padding-top: 125px;
+    padding-bottom: 125px;
+    text-align: center;
+}
+
+footer {
+    clear: both;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+
+@media screen and (max-width:1336px) {
+    .card {
+        width: 30%;
+        height: 270px;
+        margin-bottom: 8px;
+        margin-left: 2%;
+        display: inline-block;
+    }
+
+}
+
+@media screen and (max-width:836px) {
+    .card {
+        width: 47%;
+        height: 270px;
+        margin-bottom: 8px;
+        margin-left: 2%;
+        display: inline-block;
+    }
+
+}
+
+@media screen and (max-width:500px) {
+    .card {
+        width: 96%;
+        height: 300px;
+        margin-bottom: 8px;
+        margin-left: 2%;
+        display: inline-block;
+    }
+
+}
+
+@media screen and (max-width:461px) {
+    .menu ul li {
+        display: block;
+        font-size: 20px;
+    }
+
+    .menu {
+        padding: 0;
+        margin-top: 0;
+        margin-right: 10px;
+    }
+
+}
