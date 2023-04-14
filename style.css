@@ -38,7 +38,8 @@ body {
     border-radius: 10px 0 0 0;
     opacity: 0.3;
 }
-.logo:hover{
+
+.logo:hover {
     opacity: 1;
 
 }
@@ -63,7 +64,8 @@ ul {
     font-size: 20px;
 
 }
-.menu ul li:hover{
+
+.menu ul li:hover {
     color: black;
 }
 
@@ -109,7 +111,7 @@ h1 {
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.8), -5px -5px 5px rgba(0, 0, 0, 0.8);
 }
 
-.paddingCard{
+.paddingCard {
     padding: 0 10px 0 10px;
 }
 
@@ -118,20 +120,26 @@ h1 {
     border-radius: 5px 5px 0 0;
 }
 
-.mapa{
-    width: 46%;
-    display: inline-block;
-    box-sizing: border-box;
+.mapa {
+    width: 500px;
+    /* display: inline-block; */
+    /* box-sizing: border-box; */
     margin-left: 1%;
 }
-address{
-    color: white;
-    width: 46%;
-    margin-right: 1%;
-    float: right;
+
+.container-mapa {
+    display: flex;
+    align-items: center;
 }
 
-.contato{
+address {
+    color: white;
+    /* width: 46%; */
+    margin-right: 1%;
+    /* float: right; */
+}
+
+.contato {
     padding-top: 125px;
     padding-bottom: 125px;
     text-align: center;
@@ -163,6 +171,25 @@ footer {
         margin-bottom: 8px;
         margin-left: 2%;
         display: inline-block;
+    }
+
+    .container-mapa {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .mapa {
+        box-sizing: border-box;
+        width: 100%;
+    }
+
+    iframe {
+        display: block;
+        margin: auto;
+        box-sizing: content-box;
+        width: 80%;
+
     }
 
 }
